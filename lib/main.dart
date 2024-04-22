@@ -80,6 +80,14 @@ class _MyHomePageState extends State<MyHomePage> {
     setHour();
     super.initState();
   }
+  // startcount(){
+  //   setState(() {
+  //     Future.delayed(Duration(seconds: 1),(){
+  //       sec=int.parse(DateTime.now().second.toString());
+  //
+  //     });
+  //   });
+  // }
 
   @override
   Widget build(BuildContext context) {
